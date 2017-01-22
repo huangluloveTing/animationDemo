@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		701C2A221E348140008AB091 /* HLPresentAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701C2A211E348140008AB091 /* HLPresentAnimationController.swift */; };
 		7029BAC21E2F300600782763 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7029BAC11E2F300600782763 /* ThirdViewController.swift */; };
 		705020FA1E2C634E007DCB4B /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705020F81E2C634E007DCB4B /* CustomViewController.swift */; };
 		705020FB1E2C634E007DCB4B /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 705020F91E2C634E007DCB4B /* CustomViewController.xib */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		701C2A211E348140008AB091 /* HLPresentAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLPresentAnimationController.swift; sourceTree = "<group>"; };
 		7029BAC11E2F300600782763 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		705020F81E2C634E007DCB4B /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomViewController.swift; path = ../CustomViewController.swift; sourceTree = "<group>"; };
 		705020F91E2C634E007DCB4B /* CustomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomViewController.xib; path = ../CustomViewController.xib; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				709427041E2A14310065081E /* ViewController.swift */,
 				705020F81E2C634E007DCB4B /* CustomViewController.swift */,
 				705021051E2CBC88007DCB4B /* CuViewController.swift */,
+				701C2A211E348140008AB091 /* HLPresentAnimationController.swift */,
 				7029BAC11E2F300600782763 /* ThirdViewController.swift */,
 				705021061E2CBC88007DCB4B /* CuViewController.xib */,
 				705020F91E2C634E007DCB4B /* CustomViewController.xib */,
@@ -280,6 +283,7 @@
 				705020FA1E2C634E007DCB4B /* CustomViewController.swift in Sources */,
 				7029BAC21E2F300600782763 /* ThirdViewController.swift in Sources */,
 				709427051E2A14310065081E /* ViewController.swift in Sources */,
+				701C2A221E348140008AB091 /* HLPresentAnimationController.swift in Sources */,
 				709427031E2A14310065081E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
