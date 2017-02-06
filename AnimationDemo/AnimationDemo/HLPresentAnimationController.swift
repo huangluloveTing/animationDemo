@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HLPresentAnimationController: NSObject , UIViewControllerAnimatedTransitioning {
+class HLPresentAnimationController: NSObject  {
     
     public var initialFrame:CGRect!
 
@@ -26,17 +26,13 @@ class HLPresentAnimationController: NSObject , UIViewControllerAnimatedTransitio
         snapView?.frame = initialFrame
         snapView?.layer.cornerRadius = 10
         
-        container.addSubview(snapView)
-        container.addSubview(toView)
+        container.addSubview(snapView!)
+        container.addSubview(toView!)
         toView?.isHidden = true
         
-        UIView.animate(withDuration: 0.3) { 
-            <#code#>
-        }
+//        UIView.animate(withDuration: 0.3) { 
+//            <#code#>
+//        }
     }
     
-    
-    func rotationAnimation(layer:CALayer) {
-        CATransform3DMakeRotation(<#T##angle: CGFloat##CGFloat#>, <#T##x: CGFloat##CGFloat#>, <#T##y: CGFloat##CGFloat#>, <#T##z: CGFloat##CGFloat#>)
-    }
 }
